@@ -32,7 +32,7 @@ export const experiences = [
     id: 2,
     company: 'Cholamandalam Investment and Finance Company',
     designation: 'Senior React.js Developer',
-    duration: 'May 2021 – March 2025',
+    duration: 'May 2022 – March 2025',
     location: 'Chennai, Tamil Nadu',
     type: 'Full-time',
     achievements: [
@@ -52,6 +52,24 @@ export const experiences = [
       'Redux',
       'Chart.js',
       'Tailwind CSS',
+    ],
+  },
+  {
+    id: 3,
+    company: 'Exeter Premedia Services Pvt. Ltd.',
+    designation: 'Technical Copyeditor',
+    duration: 'August 2018 – April 2021',
+    location: 'Chennai, Tamil Nadu',
+    type: 'Full-time',
+    achievements: [
+      'Edited and proofread over 50 eBooks and digital publications for grammar, spelling, punctuation, and consistency, improving readability by 30%.',
+      'Worked closely with designers to ensure accurate formatting and alignment across tablets, smartphones, and eReaders.',
+    ],
+    technologies: [
+      'Content Editing',
+      'Proofreading',
+      'Digital Publishing',
+      'Formatting & Layout',
     ],
   },
 ];

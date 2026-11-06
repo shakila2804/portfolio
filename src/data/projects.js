@@ -1,4 +1,4 @@
-import { SiReact, SiTypescript, SiRedux, SiChartdotjs } from 'react-icons/si';
+import { SiReact, SiTypescript, SiRedux, SiChartdotjs, SiJavascript, SiTailwindcss } from 'react-icons/si';
 
 export const projects = [
   {
@@ -64,5 +64,25 @@ export const projects = [
     github: 'https://github.com',
     demo: 'https://demo.com',
     category: 'Dashboard',
+  },
+  {
+    id: 4,
+    title: 'MITRA',
+    description: 'Enterprise project management tool for organizing projects and tasks with responsive interfaces and REST API integrations.',
+    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80',
+    responsibilities: [
+      'Built project and task management modules',
+      'Created reusable React components',
+      'Integrated REST APIs and dynamic data',
+      'Implemented responsive interfaces with Tailwind CSS',
+    ],
+    tech: [
+      { name: 'React', icon: SiReact },
+      { name: 'JavaScript', icon: SiJavascript },
+      { name: 'Tailwind CSS', icon: SiTailwindcss },
+    ],
+    github: null,
+    demo: null,
+    category: 'Project Management',
   },
 ];

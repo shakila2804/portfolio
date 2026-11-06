@@ -118,7 +118,8 @@ export default function Hero() {
                 Contact Me
               </motion.button>
               <motion.a
-                href="/resume.pdf"
+                href={`${import.meta.env.BASE_URL}resume.pdf`}
+                download="Shakila-Sekar-Resume.pdf"
                 className="inline-flex items-center gap-2 px-6 py-3.5 text-sm font-semibold text-gray-300 border border-white/10 rounded-xl hover:bg-white/5 hover:text-white transition-colors"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
